@@ -33,9 +33,9 @@ jobs:
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
-        environment-url: 'https://user9-dev.crm.dynamics.com/'
-        user-name: 'user9@wrkdevops.onmicrosoft.com'
-        password-secret: ${{ secrets.password }}
+        environment-url: 'https://orgca3d9283.crm.dynamics.com/'
+        user-name: 'prapatil20@publicisgroupe.net'
+        password-secret: ${{ secrets.Password }}
         solution-name: ALMLab
         solution-output-file: out/exported/ALMLab.zip
 
